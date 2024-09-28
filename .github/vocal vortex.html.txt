@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speech Therapy Services</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+        }
+        nav {
+            margin: 10px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            color: white;
+            text-decoration: none;
+        }
+        section {
+            padding: 20px;
+        }
+        h2 {
+            color: #4CAF50;
+        }
+        .services, .testimonials {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .service, .testimonial {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 15px;
+            margin: 10px;
+            width: 30%;
+        }
+        .contact-form {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #4CAF50;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to Our Speech Therapy Center</h1>
+    <nav>
+        <a href="#about">About Us</a>
+        <a href="#services">Services</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#contact">Contact Us</a>
+    </nav>
+</header>
+
+<section id="about">
+    <h2>About Us</h2>
+    <p>We are dedicated to providing the best speech therapy services for individuals of all ages. Our experienced therapists use evidence-based techniques to help improve communication skills.</p>
+</section>
+
+<section id="services">
+    <h2>Our Services</h2>
+    <div class="services">
+        <div class="service">
+            <h3>Individual Therapy</h3>
+            <p>Personalized one-on-one therapy sessions to address specific speech and language challenges.</p>
+        </div>
+        <div class="service">
+            <h3>Group Therapy</h3>
+            <p>Supportive group sessions that encourage social interaction and communication skills development.</p>
+        </div>
+        <div class="service">
+            <h3>Teletherapy</h3>
+            <p>Convenient online therapy sessions that bring our services to you, wherever you are.</p>
+        </div>
+    </div>
+</section>
+
+<section id="testimonials">
+    <h2>What Our Clients Say</h2>
+    <div class="testimonials">
+        <div class="testimonial">
+            <p>"The therapy sessions have changed my child's life! Highly recommend!"</p>
+            <p>- Parent</p>
+        </div>
+        <div class="testimonial">
+            <p>"Amazing team! They made me feel comfortable and understood my needs."</p>
+            <p>- Adult Client</p>
+        </div>
+        <div class="testimonial">
+            <p>"The online sessions are so convenient. I can attend therapy from home!"</p>
+            <p>- Client</p>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <form class="contact-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+        
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2024 Speech Therapy Center. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
